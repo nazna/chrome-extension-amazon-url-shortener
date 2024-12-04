@@ -7,7 +7,7 @@
 ```sh
 $ npm run build
 $ git tag v0.1.0
-$ git push tag v0.1.0
+$ git push origin v0.1.0
 $ gh release create v0.1.0 ./amazon-url-shortener.zip
 ```
 
