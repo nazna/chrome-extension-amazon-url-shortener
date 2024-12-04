@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest.json",
+  "manifest_version": 3,
+  "name": "amazon-url-shortener",
+  "version": "0.1.0",
+  "description": "Amazon URL Shortener for Google Chrome",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rulesets.json"
+      }
+    ]
+  },
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["https://*.amazon.co.jp/*"]
+}

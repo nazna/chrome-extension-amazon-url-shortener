@@ -1,0 +1,16 @@
+{
+  "name": "chrome-extension-amazon-url-shortener",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Amazon URL Shortener for Google Chrome",
+  "license": "UNLICENSED",
+  "author": "nazna <naznagg@gmail.com> (https://nazna.dev)",
+  "engines": {
+    "node": "23.x",
+    "npm": "10.x"
+  },
+  "scripts": {
+    "build": "zip amazon-url-shortener.zip ./manifest.json ./rulesets.json"
+  }
+}
