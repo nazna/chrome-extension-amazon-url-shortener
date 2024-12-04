@@ -2,6 +2,15 @@
 
 > Amazon URL Shortener for Google Chrome
 
+## How to release
+
+```sh
+$ npm run build
+$ git tag v0.1.0
+$ git push tag v0.1.0
+$ gh release create v0.1.0 ./amazon-url-shortener.zip
+```
+
 ## Notes
 
 - Amazon は Canonical URL が存在するが、ASIN だけでなく日本語のキーワードが含まれる
