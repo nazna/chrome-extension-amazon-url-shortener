@@ -2,7 +2,7 @@
   "name": "chrome-extension-amazon-url-shortener",
   "private": true,
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Amazon URL Shortener for Google Chrome",
   "license": "UNLICENSED",
   "author": "nazna <naznagg@gmail.com> (https://nazna.dev)",

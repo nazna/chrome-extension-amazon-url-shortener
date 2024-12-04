@@ -11,6 +11,13 @@ $ git push origin v0.1.0
 $ gh release create v0.1.0 ./amazon-url-shortener.zip
 ```
 
+## How to use
+
+1. Download the zipped extension from [GitHub Releases](https://github.com/nazna/chrome-extension-amazon-url-shortener/releases)
+2. Unzip the extension
+3. Open [chrome://extensions](chrome://extensions)
+4. Load the extension folder
+
 ## Notes
 
 - Amazon は Canonical URL が存在するが、ASIN だけでなく日本語のキーワードが含まれる
