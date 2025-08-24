@@ -1,15 +1,9 @@
 {
+  "biome.requireConfiguration": true,
   "editor.codeActionsOnSave": {
-    "quickfix.biome": "explicit",
+    "source.fixAll.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "[sql]": {
-    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-  },
-  "[typescript][typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome",
-    "typescript.preferences.importModuleSpecifier": "relative"
-  }
+  "editor.formatOnSave": true
 }
