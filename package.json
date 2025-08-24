@@ -12,9 +12,11 @@
   },
   "scripts": {
     "build": "zip amazon-url-shortener.zip ./manifest.json ./rulesets.json",
+    "release": "npm run build && bumpp",
     "check": "biome check --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.2"
+    "@biomejs/biome": "2.2.2",
+    "bumpp": "10.2.3"
   }
 }
