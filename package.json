@@ -13,10 +13,11 @@
   "scripts": {
     "build": "zip amazon-url-shortener.zip ./manifest.json ./rulesets.json",
     "release": "npm run build && bumpp",
-    "check": "biome check --write ."
+    "check": "biome check --write .",
+    "bump": "npx npm-check-updates --upgrade --cooldown 3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.2",
-    "bumpp": "10.2.3"
+    "@biomejs/biome": "2.3.13",
+    "bumpp": "10.4.0"
   }
 }
