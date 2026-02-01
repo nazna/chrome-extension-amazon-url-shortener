@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "author": "nazna <naznagg@gmail.com> (https://nazna.dev)",
   "engines": {
-    "node": "24.x",
+    "node": "25.x",
     "npm": "11.x"
   },
   "scripts": {
