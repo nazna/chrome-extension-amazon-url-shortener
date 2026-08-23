@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "author": "nazna <naznagg@gmail.com> (https://nazna.dev)",
   "engines": {
-    "node": "25.x",
+    "node": "26.x",
     "npm": "11.x"
   },
   "scripts": {
@@ -17,7 +17,7 @@
     "bump": "npx npm-check-updates --upgrade --cooldown 3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.13",
-    "bumpp": "10.4.0"
+    "@biomejs/biome": "2.5.9",
+    "bumpp": "12.2.1"
   }
 }
